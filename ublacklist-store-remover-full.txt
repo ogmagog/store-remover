@@ -1,0 +1,35 @@
+---
+name: Online store remover
+description: Meant to remove online stores from searches
+homepage: 
+---
+# Blanket blocking of every site with common store terms
+/\S*store\S*|\S*Store\S*|\S*STORE\S*/
+/\S*shop\S*|\S*Shop\S*|\S*SHOP\S*/
+/\S*deal\S*|\S*Deal\S*|\S*DEAL\S*/
+/\S*dx\S*|\S*Dx\S*|\S*DX\S*/
+/\S*market\S*|\S*Market\S*|\S*MARKET\S*/
+/\S*shopping\S*|\S*Shopping\S*|\S*SHOPPING\S*/
+
+# Websites with heavy ad-load
+*://*.amazon.com/*
+*://*.ebay.com/*
+*://*.aliexpress.com/*
+*://*.banggood.com/*
+*://*.temu.com/*
+*://*.alibaba.com/*
+*://*.etsy.com/*
+*://*.wish.com/*
+*://*.joinhoney.com/*
+*://*.honey.com/*v
+*://*.shein.com/*
+
+# Blokkering av nettadresser med vanlige nettbutikk termer
+/\S*butik\S*|\S*Butik\S*|\S*BUTIK\S*/
+/\S*handel\S*|\S*Handel\S*|\S*HANDEL\S*/
+
+# Blokkering av nettsteder med høy reklamebelastning
+*://*.prisjakt.no/*
+*://*.kelkoo.no/*
+*://*.klarna.com/*
+*://*.klikk.no/*
