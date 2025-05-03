@@ -1,7 +1,8 @@
 ---
-name: Online store remover
+name: Online store remover (full version)
+by: Ogmagog
 description: Meant to remove online stores from searches
-homepage: 
+homepage: https://github.com/ogmagog/store-remover/
 ---
 # Blanket blocking of every site with common store terms
 /\S*store\S*|\S*Store\S*|\S*STORE\S*/
