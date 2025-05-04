@@ -1,6 +1,6 @@
 ---
 name: Online store remover (full version)
-by: Ogmagog
+creator: Ogmagog
 description: Meant to remove online stores from searches
 homepage: https://github.com/ogmagog/store-remover/
 ---
