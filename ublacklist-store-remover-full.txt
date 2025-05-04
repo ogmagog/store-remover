@@ -25,7 +25,7 @@ homepage: https://github.com/ogmagog/store-remover/
 *://*.honey.com/*v
 *://*.shein.com/*
 
-# Blokkering av nettadresser med vanlige nettbutikk termer
+# Blokkering av nettadresser med vanlige nettbutikktermer
 /\S*butik\S*|\S*Butik\S*|\S*BUTIK\S*/
 /\S*handel\S*|\S*Handel\S*|\S*HANDEL\S*/
 
