@@ -1,22 +1,59 @@
 # Store remover for [uBlacklist](https://github.com/iorate/ublacklist)
-Meant to reduce the amount of stores shown when using common search-engines.
+Meant to reduce the amount of stores shown when using common search-engines when searching for english and norwegian pages.
 
 ### Subscription URL
 ```
 https://raw.githubusercontent.com/ogmagog/store-remover/refs/heads/ublacklist/ublacklist-store-remover-full.txt
 ```
+<details>
+<summary>
+  Display filter (<a href="https://github.com/ogmagog/store-remover/blob/b67ad178ff1d78dde4d4577369962bb56f03f2ad/ublacklist-store-remover-full.txt#L1C1-L36C17">link</a>)
+</summary>
+
+```
+---
+name: Online store remover (full version)
+creator: Ogmagog
+description: Meant to remove online stores from searches
+homepage: https://github.com/ogmagog/store-remover/
+---
+# Blanket blocking of every site with common store terms
+/\S*store\S*|\S*Store\S*|\S*STORE\S*/
+/\S*shop\S*|\S*Shop\S*|\S*SHOP\S*/
+/\S*deal\S*|\S*Deal\S*|\S*DEAL\S*/
+/\S*dx\S*|\S*Dx\S*|\S*DX\S*/
+/\S*market\S*|\S*Market\S*|\S*MARKET\S*/
+/\S*shopping\S*|\S*Shopping\S*|\S*SHOPPING\S*/
+
+# Websites with heavy ad-load
+*://*.amazon.com/*
+*://*.ebay.com/*
+*://*.aliexpress.com/*
+*://*.banggood.com/*
+*://*.temu.com/*
+*://*.alibaba.com/*
+*://*.etsy.com/*
+*://*.wish.com/*
+*://*.joinhoney.com/*
+*://*.honey.com/*v
+*://*.shein.com/*
+
+# Blokkering av nettadresser med vanlige nettbutikktermer
+/\S*butik\S*|\S*Butik\S*|\S*BUTIK\S*/
+/\S*handel\S*|\S*Handel\S*|\S*HANDEL\S*/
+
+# Blokkering av nettsteder med høy reklamebelastning
+*://*.prisjakt.no/*
+*://*.kelkoo.no/*
+*://*.klarna.com/*
+*://*.klikk.no/*
+```
+</details>
 
 ## Dependencies
 - uBlacklist extension for your favorite [Chromium](https://chromewebstore.google.com/detail/ublacklist/pncfbmialoiaghdehhbnbhkkgmjanfhe), [Firefox](https://apps.apple.com/us/app/ublacklist-for-safari/id1547912640
 ) or [iOS](https://addons.mozilla.org/en-US/firefox/addon/ublacklist/) based browser
 - The use of a [supported search engine](https://github.com/iorate/ublacklist?tab=readme-ov-file#supported-search-engines)
-
-  ## The filter
-<details>
-https://github.com/ogmagog/store-remover/blob/fe468104affb9a19d0ed25b7b327fdeb103ace09/ublacklist-store-remover-full.txt#L1C1-L36C17
-</details>
-
-https://github.com/ogmagog/store-remover/blob/fe468104affb9a19d0ed25b7b327fdeb103ace09/ublacklist-store-remover-full.txt#L1C1-L36C17
 
 ## Step-by-step installation
 1. Add the uBlacklist extension to your browser
