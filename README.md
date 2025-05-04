@@ -73,4 +73,4 @@ https://raw.githubusercontent.com/ogmagog/store-remover/refs/heads/ublacklist/ub
 
 Enjoy not finding this github page in your Google searches!
 
-For more information head over to the [iorate's](https://github.com/iorate) (creator) [github](https://github.com/iorate/ublacklist) or documentation[](https://iorate.github.io/ublacklist/docs).
+For more information head over to the [iorate's](https://github.com/iorate) (creator) [github](https://github.com/iorate/ublacklist) or [documentation](https://iorate.github.io/ublacklist/docs).
