@@ -11,12 +11,12 @@ https://raw.githubusercontent.com/ogmagog/store-remover/refs/heads/ublacklist/ub
 ) or [iOS](https://addons.mozilla.org/en-US/firefox/addon/ublacklist/) based browser
 - The use of a [supported search engine](https://github.com/iorate/ublacklist?tab=readme-ov-file#supported-search-engines)
 
+  ## The filter
 <details>
-<summary>
-  The filter
-</summary>
-  https://github.com/ogmagog/store-remover/blob/b9e4853108ec0975aa899c1023ddcfe1f094dad7/ublacklist-store-remover-full.txt#L1C1-L36C17
+https://github.com/ogmagog/store-remover/blob/fe468104affb9a19d0ed25b7b327fdeb103ace09/ublacklist-store-remover-full.txt#L1C1-L36C17
 </details>
+
+https://github.com/ogmagog/store-remover/blob/fe468104affb9a19d0ed25b7b327fdeb103ace09/ublacklist-store-remover-full.txt#L1C1-L36C17
 
 ## Step-by-step installation
 1. Add the uBlacklist extension to your browser
